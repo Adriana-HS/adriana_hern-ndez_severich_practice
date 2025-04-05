@@ -66,10 +66,10 @@ int main() {
             cout << "Sobrevives a los muertos vivientes. Estás asombrado de tu nueva fuerza hasta que ves a un hombre acercándose acabando con los muertos vivientes con su espada sin esfuerzo. No te da tiempo de reaccionar hasta que te tiene del cuello. Intentas zafarte y no puedes, te acercas al puente con la amenaza de dejarte caer donde las bestias marinas. ¿Qué harás?\n1) Que importa su espada o su \"fuerza\", solo estabas nervioso, tú eres más fuerte. Lo atacas.\n2) Intentas convencerlo de que puedes serle útil mediante tu elocuencia.\n3) Lo retas a que puedes sobrevivir si eres lanzado y si ganas él tendrá que ser tú compañero." << endl;
             cin >> answer;
             if(answer == 1){
-               question = 15; 
+               question = 12; 
             }
             else if (answer == 2){
-                question = 15;
+                question = 12;
             }
             else if (answer == 3){
                 question++;
